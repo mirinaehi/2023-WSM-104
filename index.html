@@ -70,37 +70,44 @@ ex)
 
     <!-- 행<tr>을 먼저 만들고 열<th>,<td>을 만든다 -->
     <table>
-        <!-- 1행-->
-        <tr>
-            <!-- <th> : 본문을 설명해주는 셀 -->
-            <th>이름</th>
-            <th>주소</th>
-            <th>종류</th>
-        </tr>
-        <!-- 2행 -->
-        <tr>
-            <!-- <td> : 본문(내용물)에 해당하는 셀 -->
-            <td>네이버</td>
-            <td>https://www.naver.com/</td>
-            <td rowspan="2">포탈</td>
-        </tr>
-        <!-- 3행 -->
-        <tr>
-            <td>다음</td>
-            <td>https://www.daum.net/</td>
-            
-        </tr>
-        <!-- 4행 -->
-        <tr>
-            <td>나무위키</td>
-            <td>https://namu.wiki/</td>
-            <td>위키백과</td>
-        </tr>
+        <thead>
+            <!-- 1행-->
+            <tr>
+                <!-- <th> : 본문을 설명해주는 셀 -->
+                <th>이름</th>
+                <th>주소</th>
+                <th>종류</th>
+            </tr>
+        </thead>
 
-        <!-- 5행 -->
-        <tr>
-            <td colspan="3">자료제공 JWP</td>
-        </tr>
+        <tbody>
+            <!-- 2행 -->
+            <tr>
+                <!-- <td> : 본문(내용물)에 해당하는 셀 -->
+                <td>네이버</td>
+                <td>https://www.naver.com/</td>
+                <td rowspan="2">포탈</td>
+            </tr>
+            <!-- 3행 -->
+            <tr>
+                <td>다음</td>
+                <td>https://www.daum.net/</td>
+                
+            </tr>
+            <!-- 4행 -->
+            <tr>
+                <td>나무위키</td>
+                <td>https://namu.wiki/</td>
+                <td>위키백과</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <!-- 5행 -->
+            <tr>
+                <td colspan="3">자료제공 JWP</td>
+            </tr>
+        </tfoot>
 
     </table>
     <ul>
