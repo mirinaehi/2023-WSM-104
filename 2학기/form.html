@@ -7,20 +7,25 @@
 <body>
     <!-- <input>의 정보들을 서버에 넘겨줌 -->
     <form action="서버홈페이지">
-        /
-        <label for="i_id">아이디</label>
-        
-        <!-- 텍스트 정보를 담을 수 있는 공간 -->
-        <!-- <input>은 기본적으로 줄바꿈을 하지 않는다 -->
-        <input type="text" id="i_id">
+        <div>
+            <!-- for 속성에 id값을 매칭시켜서 <input>과 의미적으로 연결-->
+            <label for="i_id">아이디</label>
+            
+            <!-- 텍스트 정보를 담을 수 있는 공간 -->
+            <!-- <input>은 기본적으로 줄바꿈을 하지 않는다 -->
+            <input type="text" id="i_id">
+        </div>
 
+        <div>
+            <label for="i_pwd">패스워드</label>
+            <!-- 비밀번호 정보를 담을 수 있는 공간 -->
+            <input type="password" id="i_pwd">
+        </div>
 
-        <label for="i_pwd">패스워드</label>
-        <!-- 비밀번호 정보를 담을 수 있는 공간 -->
-        <input type="password" id="i_pwd">
-        
-        <!-- 입력 정보들을 서버에 전송해주는 버튼 -->
-        <input type="submit" value="로그인">
+        <div>
+            <!-- 입력 정보들을 서버에 전송해주는 버튼 -->
+            <input type="submit" value="로그인">
+        </div>
     </form>
 </body>
 </html>
