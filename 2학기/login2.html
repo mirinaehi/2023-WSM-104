@@ -6,38 +6,36 @@
     <link rel="stylesheet" href="login2.css">
 </head>
 <body>
-    <!-- 무언가를 담는 용기 -->
-    <div class="container">
+    <!-- container: 용기(담는 그릇) -->
+    <!-- <div class="container"> -->
         <div class="form-container" id="login-form">
             <h1>Login</h1>
-            <form action="#">
+            <form action="">
                 <label for="username">아이디</label>
-                <input type="text" id="username">
+                <input type="text" id="username" name="username">
                 <label for="password">비밀번호</label>
-                <input type="password" id="password">
+                <input type="password" id="password" name="password">
+                <!-- submit: 제출하다 -->
                 <button type="submit">로그인</button>
             </form>
             <p>
                 <a href="#" id="signup-link">회원가입</a>
             </p>
         </div>
-    </div>
 
-    <div class="container">
         <div class="form-container" id="signup-form">
             <h1>Sign Up</h1>
-            <form action="#">
+            <form action="">
                 <label for="new-username">아이디</label>
-                <input type="text" id="new-username">
+                <input type="text" id="new-username" name="new-username">
                 <label for="new-email">이메일</label>
-                <input type="email" id="new-email">
+                <input type="text" id="new-email" name="new-email">
                 <label for="new-password">비밀번호</label>
-                <input type="password" id="new-password">
-                
-                <button type="submit">로그인</button>
+                <input type="password" id="new-password" name="new-password">
+                <button type="submit">회원가입</button>
             </form>
         </div>
-    </div>
+    <!-- </div> -->
 
 
 </body>
